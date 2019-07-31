@@ -3,8 +3,5 @@ node default {
         ensure  => file,
         content => 'This should exist',
         owner   => 'root',
-    }
-    file { '/root/README.md':
-        owner   => 'root',
-    }        
+    }  
 }
